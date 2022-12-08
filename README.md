@@ -1,8 +1,8 @@
 # RedStore
 An online shopping website for sports ware.
 
-##Live Website
-[Link text Here](https://mahmouud74.github.io/RedStore/products.html)
+## Live Website
+[RedStore](https://mahmouud74.github.io/RedStore/products.html)
 
 ## Contributors
 1. Mahmoud Mohamed
