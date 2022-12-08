@@ -9,9 +9,7 @@
 
 
 
-https://user-images.githubusercontent.com/36276898/206564729-79d8bb42-4d07-41cf-909e-a96751b44346.mp4
-
-https://user-images.githubusercontent.com/36276898/206564729-79d8bb42-4d07-41cf-909e-a96751b44346.mp4
+https://user-images.githubusercontent.com/50016070/206589711-412bd1e9-3ded-40e6-ad30-f1914da030c7.mp4
 
 
 <h1>⚡ Skills</h1>
