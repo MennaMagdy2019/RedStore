@@ -1,0 +1,832 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navBar{
+    /*background: radial-gradient(#e6b6af, #e5cf91);*/
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+    padding-top: 30px;
+    
+    position: relative;
+   
+}
+.navBar .logo
+{
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+}
+.navBar h3
+{   display: inline-block;
+    position: absolute;
+    left: 0px;
+}
+.navBar ul{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+    position: absolute;
+    right: 0px;
+}
+.navBar ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left:10px ;
+}
+.navBar a {
+    text-decoration: none;
+    color: inherit;
+    font-family: cursive;
+}
+
+.intro
+{   /*background-image: url(../../assets/images/pexels-photo-593322.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    font-family: 'Abril Fatface', cursive;*/
+    min-height: 700px;
+    position: relative;
+    background: radial-gradient(#f2eef0,#fa9e9e );
+}
+.intro img
+{   float: right;
+    width: 50%;
+}
+#playerImg
+{
+    display: none;
+}
+.intro .introDescription
+{   
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 40px;
+    float: left;
+    width: 45%;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.intro .introDescription .header
+{
+    display: none;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.intro .introDescription .firstP
+{
+    display: none;
+    font-size: 18px;
+}
+/* .intro .introDescription button{
+    display: none;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #f2eef0;
+    background-color:rgb(251, 57, 73);
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+} */
+.intro .introDescription button a{
+    text-decoration: none;
+    color: #f2eef0;
+}
+.products{
+    padding-top: 60px;
+    min-height: 700px;
+}
+.productImages{
+    padding: 60px;
+}
+.products img{
+    height: 100%;
+    float: left;
+    padding-right: 20px;
+    width: 33%;
+}
+.featured{
+    margin-top:10px ;
+    min-height: 500px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.slider{
+    padding-top: 30px;
+}
+.slider .previous{
+    padding-left: 25px;
+}
+.slider .prev{
+    background-color:rgb(251, 57, 73);
+    float: left;
+    margin-top: 200px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.slider .next{
+    padding-right: 25px;
+}
+.slider .nex{
+    cursor: pointer;
+    background-color:rgb(251, 57, 73);
+    float: right;
+    margin-top: 200px;
+    padding: 10px;
+    font-size: 20px;
+}
+#sliderImage{
+    height: 400px;
+    width: 60%;
+}
+.smallImages{
+    text-align: center;
+    overflow: hidden;
+}
+.smallImages .smallImage{
+    overflow: hidden;
+    float: left;
+    margin: auto;
+    width: 16%;
+    padding: 20px;
+}
+.smallImage img{
+    height: 150px;
+    display: inline-block;
+    width: 100%;
+}
+.featured h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #f6745f;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.latest{
+    background-color: white;
+    color: black;
+    min-height: 500px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+.latestProduct{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    float: left;
+    width: 24%;
+    text-align: start;
+    padding-left: 20px;
+    padding-left: 20px;
+}
+.latestHeader{
+    padding-top: 40px;
+}
+.latestProduct img{
+    cursor: pointer;
+    width: 100%;
+}
+.stars{
+    cursor: pointer;
+    color: rgb(251, 57, 73);
+}
+.footer{
+    border-top: #f6745f 2px solid;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+.footer .app
+{   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 30%;
+}
+.footer .app p
+{
+    font-weight: light;
+    color: gray;
+    font-size: 15px;
+}
+.footer .app .icons{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.footer .app .icons .iconContainer{
+    float: left;
+    width: 50%;
+}
+.iconContainer img{
+    cursor: pointer;
+    width: 60%;
+}
+.logoContainer
+{   text-align: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 30%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footerLogoText p{
+    color:  gray;
+    font-size: 15px;
+
+}
+.footerLogo img
+{
+    margin-bottom: 30px;
+    width: 30%;
+}
+.footer .data{
+    margin-left: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 30px;
+    padding-left: 20px;
+    float: left;
+    width: 15%;
+}
+.footer .data h5{
+    padding-left: 30px;
+}
+.footer .data ul {
+    color: gray;
+    list-style: none;
+}
+.footer .data ul li
+{
+    font-weight: light;
+    font-size: 15px;
+}
+/*.intro h1
+{
+    position: absolute;
+    top: 500px;
+    left:40%;
+    font-weight:850px ;
+    font-size: 70px;
+    color: rgba(71, 69, 69, 0.5);
+}
+.intro h2
+{
+    position: absolute;
+    top: 512px;
+    left:42%;
+    font-weight: 950px;
+    font-size: 55px;
+}*/
+
+/* formContainer */
+.formContainer{
+    margin:  auto;
+    padding: 20px;
+    text-align: center;
+    min-height: 508.4px;
+    background-color: black;
+}
+.myform{
+    width: 50%;
+    padding: 50px;
+    background-color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    min-height: 380px;
+}
+#registerationForm{
+    display: inline-block;
+}
+.formTable{
+    margin: auto;
+}
+
+form
+{
+    margin: 20px;
+}
+form input
+{   
+    font-size: 15px;
+    border-top: 2px #f6745f solid;
+    border-left: 2px #f6745f solid;
+    border-right: 2px #f6745f solid;
+    border-bottom: 2px #f6745f solid;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    padding-top: 10px;
+    padding-right: 50px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    margin-bottom: 10px;
+}
+/* form button
+{
+    margin-left:40px;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #f2eef0;
+    background-color:rgb(251, 57, 73);
+    border: none;
+    width: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+} */
+form label
+{  
+    visibility: hidden;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(251, 57, 73);
+}
+.formLinks
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+.formLinks h3{
+    padding-bottom:20px ;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.formLinks a {
+    text-decoration: none;
+    color: #f2eef0;
+}
+.formWarning{
+    display: none;
+    border-radius: 10px;
+    font-weight: lighter;
+    color: white;
+    padding: 10px;
+    background-color:  rgb(251, 57, 73);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.formWarning p{
+    font-size: 15px;
+    color: rgba(255,255,255,0.9);
+}
+.checkMark{
+    display: none;
+    color: green;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#register{
+    border-bottom: 2px solid rgb(251, 57, 73);
+}
+#loginForm{
+    display: none;
+}
+@media (max-width :570px) {
+
+    .navBar{
+        margin-bottom: 50px;
+        /*background: radial-gradient(#e6b6af, #e5cf91);*/
+        color: black;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 60px;
+        padding-top: 30px;
+        position: relative;
+       
+    }
+    .navBar .logo
+    {
+        width: 50%;
+        height: 100%;
+        margin-left: 10px;
+    }
+    .navBar h3
+    {   display: inline-block;
+        width: 100%;
+    }
+    .navBar ul{
+        display: inline-block;
+        width: 100%;
+        margin-right: 50px;
+        margin-top: 10px;
+        /*position: absolute;
+        right: 0px;*/
+    }
+    .navBar ul li {
+        list-style: none;
+        display: inline-block;
+        font-size: 18px;
+        margin-left:10px ;
+    }
+    .navBar a {
+        text-decoration: none;
+        color: inherit;
+        font-family: cursive;
+    }
+    .intro
+{   /*background-image: url(../../assets/images/pexels-photo-593322.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    font-family: 'Abril Fatface', cursive;*/
+    min-height: 700px;
+    position: relative;
+    background: radial-gradient(#f2eef0,#fa9e9e );
+}
+.intro img
+{   
+    float: right;
+    width:50%;
+}
+#playerImg
+{
+    display: none;
+}
+.intro .introDescription
+{   
+    border-radius: 10px;
+    float: left;
+    width: 50%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.intro .introDescription .header
+{
+    display: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.intro .introDescription .firstP
+{
+    display: none;
+    font-size: 15px;
+}
+.intro .introDescription button{
+    display: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    color: #f2eef0;
+    background-color:rgb(251, 57, 73);
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.products{
+    padding-top: 60px;
+}
+.productImages{
+    padding: 60px;
+}
+.products img{
+    float: left;
+    width: 33%;
+}
+.featured{
+    margin-top:10px ;
+    min-height: 500px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.slider{
+    padding-top: 30px;
+}
+.slider .previous{
+    padding-left: 10px;
+}
+.slider .prev{
+    background-color:rgb(251, 57, 73);
+    float: left;
+    margin-top: 200px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.slider .next{
+    padding-right: 10px;
+}
+.slider .nex{
+    cursor: pointer;
+    background-color:rgb(251, 57, 73);
+    float: right;
+    margin-top: 200px;
+    font-size: 10px;
+    
+}
+#sliderImage{
+    height: 400px;
+    width: 60%;
+}
+.smallImages{
+    display: none;
+    text-align: center;
+    overflow: hidden;
+}
+.smallImages .smallImage{
+    overflow: hidden;
+    float: left;
+    margin: auto;
+    width: 16%;
+    padding: 20px;
+}
+.smallImage img{
+    height: 150px;
+    display: inline-block;
+    width: 100%;
+}
+.featured h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #f6745f;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.latest{
+    background-color: white;
+    color: black;
+    min-height: 500px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+.latestProduct{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    float: left;
+    width: 49%;
+    text-align: start;
+    padding-left: 20px;
+    padding-left: 20px;
+}
+.latestHeader{
+    padding-top: 40px;
+}
+.latestProduct img{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.stars{
+    cursor: pointer;
+    color: rgb(251, 57, 73);
+}
+
+.formContainer{
+    margin:  auto;
+    text-align: center;
+    min-height: 508.4px;
+    background-color: black;
+    overflow-x: hidden;
+}
+.myform{
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    min-height: 380px;
+}
+#registerationForm{
+    display: inline-block;
+}
+.formTable{
+    margin: auto;
+}
+
+form
+{
+}
+form input
+{   
+    font-size: 15px;
+    border-top: 2px #f6745f solid;
+    border-left: 2px #f6745f solid;
+    border-right: 2px #f6745f solid;
+    border-bottom: 2px #f6745f solid;
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    margin-bottom: 10px;
+}
+form button
+{
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #f2eef0;
+    background-color:rgb(251, 57, 73);
+    border: none;
+    width: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+form label
+{  
+    visibility: hidden;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(251, 57, 73);
+}
+.formLinks
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+.formLinks h3{
+    padding-bottom:20px ;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.formLinks a {
+    text-decoration: none;
+    color: #f2eef0;
+}
+.formWarning{
+    display: none;
+    border-radius: 10px;
+    font-weight: lighter;
+    color: white;
+    padding: 10px;
+    background-color:  rgb(251, 57, 73);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.formWarning p{
+    font-size: 15px;
+    color: rgba(255,255,255,0.9);
+}
+.checkMark{
+    display: none;
+    color: green;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#register{
+    border-bottom: 2px solid rgb(251, 57, 73);
+}
+#loginForm{
+    display: none;
+}
+.footer{
+    border-top: 2px solid #f6745f;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+.footer .app
+{   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 49%;
+}
+.footer .app p
+{
+    font-weight: light;
+    color: gray;
+    font-size: 15px;
+}
+.footer .app .icons{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.footer .app .icons .iconContainer{
+    float: left;
+    width: 50%;
+}
+.iconContainer img{
+    cursor: pointer;
+    width: 60%;
+}
+.logoContainer
+{   text-align: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 49%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footerLogoText p{
+    color:  gray;
+    font-size: 15px;
+
+}
+.footerLogo img
+{
+    margin-bottom: 30px;
+    width: 30%;
+}
+.footer .data{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 30px;
+    padding-left: 20px;
+    float: left;
+    width: 40%;
+}
+.footer .data h5{
+    padding-left: 30px;
+}
+.footer .data ul {
+    color: gray;
+    list-style: none;
+}
+.footer .data ul li
+{
+    font-weight: light;
+    font-size: 15px;
+}
+ 
+}

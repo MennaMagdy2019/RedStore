@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/styles/main.css">
+    <link rel="stylesheet" href="./public/styles/index.css">
+    <script src="./public/scripts/library.js"></script>
+    <script src="./public/scripts/index.js"></script>
+</head>
+<body onload="index()">
+    <div class="intro" id="intro">
+    <div class="navBar">
+        <h3><a href="#intro"><img src="./assets/images/logo.png" class="logo"alt="" srcset=""></a></h3>
+        <ul>
+            <a href="#formCont"  id="registrationLink"><li>Registration</li></a>
+            <a href="#formCont" id="logInLink"><li>log in</li></a>
+        </ul>
+    </div>
+        <div class="introDescription" id="introDesc">
+            <h1 class="header"> Give Your Workout <br> A New Style !</h1>
+            <br>
+            <p class="firstP">Success isn't always about greatness. it's about consistency. Consistent hard  work gains success.
+                 Greatness will come
+            </p>
+            <button class="btn add" > <a href="#latest">  Explore More </a> <span>&#8680;</span></button>
+        </div>
+            <img src="./assets/images/image1.png" id="playerImg" alt="" srcset="">
+
+    </div>
+    <div class="products">
+        <div class="productImages">
+            <img src="assets/images/category-1.jpg" alt="" srcset="">
+            <img src="assets/images/category-2.jpg" alt="" srcset="">
+            <img src="assets/images/category-3.jpg" alt="" srcset="">
+        </div>
+
+    </div>
+    <div class="featured">
+        <h2> Our Products</h2>
+        <div class="slider">
+            <div class="previous">
+                <button class="prev" id="previousImage">&lt; previous</button>
+            </div>
+            <div class="next">
+                <button class="nex" id="nextImage">next &gt;</button>
+            </div>
+            <img src="assets/images/category-3.jpg" id="sliderImage" alt="" srcset="">
+
+            <div class="smallImages">
+                <div class="smallImage">
+                    <img src="assets/images/category-1.jpg" alt="" srcset="">
+                </div>  
+                <div class="smallImage">
+                    <img src="assets/images/category-2.jpg" alt="" srcset="">
+
+                </div>
+                <div class="smallImage">
+                    <img src="assets/images/category-3.jpg" alt="" srcset="">
+                </div>
+                <div class="smallImage">
+                    <img src="assets/images/product-12.jpg" alt="" srcset="">
+                </div>  
+                <div class="smallImage">
+                    <img src="assets/images/product-8.jpg" alt="" srcset="">
+
+                </div>
+                <div class="smallImage">
+                    <img src="assets/images/product-5.jpg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+        <br><br>
+        </b>
+        <div class="latest" id="latest">
+            <div class="latestHeader">
+                <h2 > Latest Product</h2>        
+            </div>
+            <div class="latestProduct">
+                <img src="./assets/images/product-5.jpg" alt="" srcset="">
+                <p>Blac Printed T-shirt</p>
+                <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <p class="price">$55.00</p>
+            </div>
+            <div class="latestProduct">
+                <img src="./assets/images/product-6.jpg" alt="" srcset="">
+                <p>Blac Printed T-shirt</p>
+                <p class="stars">&#9733;&#9733;&#9734;&#9734;&#9734;</p>
+                <p class="price">$55.00</p>
+            </div>
+            <div class="latestProduct">
+                <img src="./assets/images/product-7.jpg" alt="" srcset="">
+                <p>Blac Printed T-shirt</p>
+                <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <p class="price">$55.00</p>
+            </div>
+            <div class="latestProduct">
+                <img src="./assets/images/product-8.jpg" alt="" srcset="">
+                <p>Blac Printed T-shirt</p>
+                <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p class="price">$55.00</p>
+            </div>
+            <div class="latestProduct">
+                <img src="./assets/images/product-9.jpg" alt="" srcset="">
+                <p>Blac Printed T-shirt</p>
+                <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <p class="price">$55.00</p>
+            </div>
+            <div class="latestProduct">
+                <img src="./assets/images/product-10.jpg" alt="" srcset="">
+                <p>Blac Printed T-shirt</p>
+                <p class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+                <p class="price">$55.00</p>
+            </div>
+            <div class="latestProduct">
+                <img src="./assets/images/product-11.jpg" alt="" srcset="">
+                <p>Blac Printed T-shirt</p>
+                <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <p class="price">$55.00</p>
+            </div>
+            <div class="latestProduct">
+                <img src="./assets/images/product-12.jpg" alt="" srcset="">
+                <p>Blac Printed T-shirt</p>
+                <p class="stars">&#9733;&#9734;&#9734;&#9734;&#9734;</p>
+                <p class="price">$55.00</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="formContainer" id="formCont">
+        <div class="formLinks">
+            <h3 id="register">
+                <a href="" >register</a>
+            </h3>
+            <h3 id="login">
+                <a href="" >login</a>
+    
+            </h3>
+        </div>
+
+        <form action="" id="registerationForm" class="myform">
+            <table class="formTable">
+                <tr>
+                    <td>
+                        <label for="userName">user name</label>
+                    </td>
+
+                    <td >
+                        <input type="text" placeholder="enter user name" name="userName" id="userName">
+                        <span class="checkMark" id="userNameCheckMark">&#10003;</span>
+                        <div class="formWarning" id="userNameWarning">
+                            <p>
+                                enter user name
+                            </p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">email</label>
+                    </td>
+                    <td >
+                        <input  type="email" placeholder="enter you email" name="email" id="email">
+                        <span class="checkMark" id="emailCheckMark">&#10003;</span>
+                        <div class="formWarning" id="emailWarning">
+                            <p>
+                                email must have @domain.com
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">phone</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="enter you phone" name="phone" id="phone">
+                        <span class="checkMark" id="phoneCheckMark">&#10003;</span>
+                        <div class="formWarning" id="phoneWarning">
+                            <p>
+                               invalid phone number
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password" placeholder="enter Password">
+                        <span class="checkMark" id="passwordCheckMark">&#10003;</span>
+                        <div class="formWarning" id="passwordWarning">
+                            <p>
+                               invalid password
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+                <!--<tr >
+                    <td></td>
+                    <td >
+                        <input type="radio"  name="gender" id="male" value="male">
+                        <span style="color: #e67564;"> male</span>
+                    </td>   
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td >
+                        <input type="radio" placeholder="enter password"  name="gender" id="female" value="female">
+                        <span style="color: #e67564;">female</span>
+
+                    </td>
+
+
+
+                </tr>-->
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" class="btn add" id="submitRegisterButton">REGISTER</button>
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+        <form action="./productdetails.html" method="get" id="loginForm" class="myform">
+            <table class="formTable">
+                <tr>
+                    <td>
+                        <label for="emailLogin">email</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="enter you email" name="email" id="emailLogin">
+                        <span class="checkMark" id="emailLoginCheckMark">&#10003;</span>
+                        <div class="formWarning" id="emailLoginWarning">
+                            <p>
+                                email must have @domain.com
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="passwordLogin">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="passwordLogin" placeholder="enter password">
+                        <span class="checkMark" id="passwordLoginCheckMark">&#10003;</span>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" class="btn add" id="logInButton">LOG IN</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="app">
+            <h4>Download Our App</h4>
+            <p>download our app for android and ios</p>
+            <div class=" icons">
+                <div class="iconContainer">
+                    <img src="assets/images/app-store.png" alt="" srcset="">
+                </div>
+                <div class="iconContainer">
+                    <img src="assets/images/play-store.png" alt="" srcset="">
+                </div>
+
+            </div>
+        </div>
+        <div class="logoContainer">
+            <div class="footerLogo">
+                <img src="./assets/images/logo-white.png" alt="" srcset="">
+            </div>
+            <div class="footerLogoText">
+                <p>
+                    our purpose is to deliver the best solution and equipment to improve the quality of your life 
+                    , enjoy sports
+                </p>
+            </div>
+        </div>
+        <div class="data">
+            <h5>useful links</h5>
+            <ul>
+                <li>Coupons</li>
+                <li>Return Policy</li>
+                <li>Blog Post</li>
+                <li>Join Affiliate</li>                
+            </ul>
+        </div>
+        <div class="data">
+            <h5>Follow Us</h5>
+            <ul>
+                <li>FaceBook</li>
+                <li>Youtube</li>
+                <li>Instagram</li>
+                <li>Twitter</li>                
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

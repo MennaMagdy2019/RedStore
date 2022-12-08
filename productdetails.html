@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./public/styles/main.css" rel="stylesheet">
+    <link href="./public/styles/productdetails.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ed78bfa33.js" crossorigin="anonymous"></script>
+    <title>Red Store</title>
+</head>
+<body>
+    <div class="navigation" id="navigation">
+        <div class="logged-in">
+            <div class="avatar" id="avatar">
+            </div>
+            <p class="msg" id="msg"></p>
+        </div>
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <label for="active" class="close"></label>
+
+        <div class="listContanier">
+            <ul>
+                <li><a href="products.html">Home</a></li>
+                <li><a href="products.html">Proudct</a></li>
+                <li><a href="contactUS.html">Contact Us</a></li>
+                <li><a href="#">ِAbout</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <a class="btn add cart" href="./cart.html">Go to Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <div class="product-details">
+            <div class="product-view">
+                <div class="main-view">
+                    <img src="./assets/images/product-1.jpg" id="view-img">
+                </div>
+                <div class="select-view">
+                    <img src="./assets/images/gallery-1.jpg" alt="" class="select-img">
+                    <img src="./assets/images/gallery-2.jpg" alt="" class="select-img">
+                    <img src="./assets/images/gallery-3.jpg" alt="" class="select-img">
+                    <img src="./assets/images/gallery-4.jpg" alt="" class="select-img">
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h4>Home/T-shirt</h4>
+                <h2>Red Printed T-shirt by HRX</h2>
+                <span>&dollar;50.00</span>
+                <form id="product-1">
+                    <select class="input size" id="size">
+                        <option>Choose Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option>Small</option>
+                    </select><br>
+                    <label for="quantity">Qty:</label><br>
+                    <input type="number" step="1" class="input quantity" id="quantity" min="0"><br>
+                    <button class="btn add" id="add-btn">Add to Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                    <button class="btn remove" id="rem-btn">Remove from Cart</button>
+                </form>
+                <h3>Product Details <i class="fa fa-th" aria-hidden="true"></i></h3>
+                <p>
+                    Give your summer wardrobe a style upgrade with the HRX Man's Active T-shirt. Team it with a pair of shorts for your mornning workout or a denims for an evening out with the guys.
+                </p>
+            </div>
+            <div class="clear"></div>
+            <div class="related-products">
+                <h2>Related Products</h2>
+                <div class="products">
+                    <div class="product">
+                        <div>
+                            <img src="./assets/images/product-8.jpg">
+                        </div>
+                        <h3>Black Sports Watch</h3>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+                        <span>&dollar;125.00</span>
+                    </div>
+                    <div class="product">
+                        <div>
+                            <img src="./assets/images/product-2.jpg">
+                        </div>
+                        <h3>Black HRX Shoes</h3>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <span>&dollar;55.00</span>
+                    </div>
+                    <div class="product">
+                        <div>
+                            <img src="./assets/images/product-12.jpg">
+                        </div>
+                        <h3>HRX Trackpants</h3>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <span>&dollar;90.00</span>
+                    </div>
+                    <div class="product">
+                        <div>
+                            <img src="./assets/images/product-4.jpg">
+                        </div>
+                        <h3>Navy Blue Puma T-shirt</h3>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <span>&dollar;83.00</span>
+                    </div>
+                    <div class="clear"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="app">
+            <h4>Download Our App</h4>
+            <p>download our app for android and ios</p>
+            <div class=" icons">
+                <div class="iconContainer">
+                    <img src="./assets/images/app-store.png" alt="" srcset="">
+                </div>
+                <div class="iconContainer">
+                    <img src="./assets/images/play-store.png" alt="" srcset="">
+                </div>
+
+            </div>
+        </div>
+        <div class="logoContainer">
+            <div class="footerLogo">
+                <img src="./assets/images/logo-white.png" alt="" srcset="">
+            </div>
+            <div class="footerLogoText">
+                <p>
+                    our purpose is to deliver the best solution and equipment to improve the quality of your life 
+                    , enjoy sports
+                </p>
+            </div>
+        </div>
+        <div class="data">
+            <h5>useful links</h5>
+            <ul>
+                <li>Coupons</li>
+                <li>Return Policy</li>
+                <li>Blog Post</li>
+                <li>Join Affiliate</li>                
+            </ul>
+        </div>
+        <div class="data">
+            <h5>Follow Us</h5>
+            <ul>
+                <li>FaceBook</li>
+                <li>Youtube</li>
+                <li>Instagram</li>
+                <li>Twitter</li>                
+            </ul>
+        </div>
+    </div>
+    <script src="./public/scripts/library.js"></script>
+    <script src="./public/scripts/navigation.js"></script>
+    <script src="./public/scripts/productdetails.js"></script>
+</body>
+</html>

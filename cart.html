@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <title>Product price</title>
+        <meta name="description" content="clothes website">
+        <meta name="keywords" content="clothes,price,website">
+        <script src="https://kit.fontawesome.com/5ed78bfa33.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,500;0,600;0,700;0,900;1,300;1,400;1,600&display=swap');" rel="stylesheet">
+        <link href="./public/styles/main.css" rel="stylesheet">
+        <link href="./public/styles/cart.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navigation" id="navigation">
+            <div class="logged-in">
+                <div class="avatar" id="avatar">
+                    <!-- <img src="./assets/images/userLogged.png"> -->
+                </div>
+                <p class="msg" id="msg"></p>
+            </div>
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+            <label for="active" class="close"></label>
+        
+            <div class="listContanier">
+                <ul>
+                    <li><a href="products.html">Home</a></li>
+                    <li><a href="products.html">Proudct</a></li>
+                    <li><a href="contactUS.html">Contact Us</a></li>
+                    <li><a href="#">ِAbout</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <table cellspacing="0" class="table1" id="table" >
+            <tr class="row1">
+                <td class="prod">Product</td>
+                <td>Quantity</td>
+                <td class ="col3">Subtotal</td>
+            </tr>
+            <tr>
+               <td class="col1">
+                <img src="./assets/images/buy-2.jpg" id="img">
+                <div class="pinfo">
+                    <p>HRX Sports Shoes</p>
+                    <p>Price: $75.00</p>
+                    <input type="button" value="Remove" class="btn_rem" onclick="remove(this)">
+                </div>
+               </td> 
+               <td><input type="number" class="quant" id="Shoes" value="1" oninput="calc()"></td>
+               <td class ="col3" id="subShoe">$75.00</td>
+            </tr>
+            <tr>
+                <td class="col1">
+                 <img src="./assets/images/buy-3.jpg">
+                 <div class="pinfo">
+                    <p>HRX Grey Trackpants</p>
+                    <p>Price: $75.00</p>
+                    <input type="button" value="Remove" class="btn_rem" onclick="remove(this)">
+                 </div>
+                </td>
+                <td><input type="number" class="quant" id="Trackpants" value="1" oninput="calc()"></td>
+                <td class ="col3" id="subPant">$75.00</td>
+            </tr>
+        </table>
+        
+        <div class="line"></div>
+        <table class="table2">
+            <tr>
+                <td>Total</td>
+                <td id="total">$150.00</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td id="tax">$22.50</td>
+            </tr>
+            <tr>
+                <td>Final Price</td>
+                <td id="fPrice">$172.50</td>
+            </tr>
+        </table>
+
+        <button class="btn_proc">Proceed to checkout &#8594</button> 
+        <div class="footer">
+            <div class="app">
+                <h4>Download Our App</h4>
+                <p>download our app for android and ios</p>
+                <div class=" icons">
+                    <div class="iconContainer">
+                        <img src="./assets/images/app-store.png" alt="" srcset="">
+                    </div>
+                    <div class="iconContainer">
+                        <img src="./assets/images/play-store.png" alt="" srcset="">
+                    </div>
+    
+                </div>
+            </div>
+            <div class="logoContainer">
+                <div class="footerLogo">
+                    <img src="./assets/images/logo-white.png" alt="" srcset="">
+                </div>
+                <div class="footerLogoText">
+                    <p>
+                        our purpose is to deliver the best solution and equipment to improve the quality of your life 
+                        , enjoy sports
+                    </p>
+                </div>
+            </div>
+            <div class="data">
+                <h5>useful links</h5>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Return Policy</li>
+                    <li>Blog Post</li>
+                    <li>Join Affiliate</li>                
+                </ul>
+            </div>
+            <div class="data">
+                <h5>Follow Us</h5>
+                <ul>
+                    <li>FaceBook</li>
+                    <li>Youtube</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>                
+                </ul>
+            </div>
+        </div>
+        
+        <script src="./public/scripts/library.js"></script>
+        <script src="./public/scripts/navigation.js"></script>
+        <script src="./public/scripts/cart.js"></script>
+    </body>
+</html>

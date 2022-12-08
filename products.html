@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5ed78bfa33.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="public/styles/main.css">
+    <link rel="stylesheet" href="public/styles/products.css">
+    <link rel="stylesheet" href="public/styles/footer.css">
+    <title>RedStore</title>
+</head>
+<body>
+    <!------------------navigation--------->
+    <div class="navigation" id="navigation">
+        <div class="logged-in">
+            <div class="avatar" id="avatar">
+                <!-- <img src="./assets/images/userLogged.png"> -->
+            </div>
+            <p class="msg" id="msg"></p>
+        </div>
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <label for="active" class="close"></label>
+    
+        <div class="listContanier">
+            <ul>
+                <li><a href="products.html">Home</a></li>
+                <li><a href="products.html">Proudct</a></li>
+                <li><a href="contactUS.html">Contact Us</a></li>
+                <li><a href="#">ِAbout</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <!--------All Products---------->
+    <div class="container">
+        <div class="headerProducts">
+            <div class="header">
+                <h4>ALL Products</h4>
+            </div>
+            <div class="filterProducts">
+                <ul>
+                    <li id="allProducts" class="active"><a href="#">All Products</a></li>
+                    <li id="shirts"><a href="#">T-shirts</a></li>
+                    <li id="trackpants"><a href="#">Trackpants</a></li>
+                    <li id="watches"><a href="#">Watchs</a></li>
+                    <li id="sockes"><a href="#">Sockes</a></li>
+                    <li id="shoes"><a href="#">Shoes</a></li>
+                </ul>
+            </div>
+            <div>
+                <select id="sort">
+                    <option value="defaulsort">Default Sort</option>
+                    <option value="byrating">Sort by ratings</option>
+                    <option value="byprice">Sort by Price</option>
+                    <option value="bysale">Sort by Sale</option>
+                </select>
+            </div>
+        </div>
+    
+        <div class="AllProducts">
+            <div class="products">
+                <div class="product shirt">
+                    <a href="./productdetails.html"><img src="assets/images//product-1.jpg" alt=""></a>
+                    <h5>Res Printed T-Shirt</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="product shoes">
+                    <img src="assets/images/product-2.jpg" alt="">
+                    <h5>HFX Sports Shoes</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                       <!-- <i class="fa fa-star-half-o" aria-hidden="true"></i> -->
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="product trackpants">
+                    <img src="assets/images/product-3.jpg" alt="">
+                    <h5>HFX Trackpants</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="product shirt">
+                    <img src="assets/images/product-4.jpg" alt="">
+                    <h5>Blue Printed T-Shirt
+                    </h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$55.00</p>
+                </div>
+           
+                <div class="product shoes">
+                    <img src="assets/images/product-5.jpg" alt="">
+                    <h5>Puma Grey Sports Shoes</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$95.00</p>
+                </div>
+                <div class="product shirt">
+                    <img src="assets/images/product-6.jpg" alt="">
+                    <h5>Black Printed T-Shirt</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                       <!-- <i class="fa fa-star-half-o" aria-hidden="true"></i> -->
+
+                    </div>
+                    <p>$55.00</p>
+                </div>
+                <div class="product socks">
+                    <img src="assets/images/product-7.jpg" alt="">
+                    <h5>HFX Set Of 3 Socks</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+
+                    </div>
+                    <p>$20.00</p>
+                </div>
+                <div class="product watch">
+                    <img src="assets/images/product-8.jpg" alt="">
+                    <h5>Black Fossil Watch</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$120.00</p>
+                </div>
+          
+                <div class="product watch">
+                    <img src="assets/images/product-9.jpg" alt="">
+                    <h5>Black Sports Watch</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$125.00</p>
+                </div>
+                <div class="product shoes">
+                    <img src="assets/images/product-10.jpg" alt="">
+                    <h5>Black HRX Shoes</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                       <!-- <i class="fa fa-star-half-o" aria-hidden="true"></i> -->
+
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="product shoes">
+                    <img src="assets/images/product-11.jpg" alt="">
+                    <h5>Grey Nike Shoes</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+
+                    </div>
+                    <p>$55.00</p>
+                </div>
+                <div class="product trackpants">
+                    <img src="assets/images/product-12.jpg" alt="">
+                    <h5>HRX Trackpants</h5>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$75.00</p>
+                </div>
+            </div>
+     </div>
+
+     <div class="pagination">
+       <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+       </ul>
+     </div>
+    </div>
+    <br><br>
+    <!---------------------footer------------->
+    <div class="footer">
+        <div class="app">
+            <h4>Download Our App</h4>
+            <p>download our app for android and ios</p>
+            <div class=" icons">
+                <div class="iconContainer">
+                    <img src="./app-store.png" alt="" srcset="">
+                </div>
+                <div class="iconContainer">
+                    <img src="./play-store.png" alt="" srcset="">
+                </div>
+
+            </div>
+        </div>
+        <div class="logoContainer">
+            <div class="footerLogo">
+                <img src="././logo-white.png" alt="" srcset="">
+            </div>
+            <div class="footerLogoText">
+                <p>
+                    our purpose is to deliver the best solution and equipment to improve the quality of your life 
+                    , enjoy sports
+                </p>
+            </div>
+        </div>
+        <div class="data">
+            <h5>useful links</h5>
+            <ul>
+                <li>Coupons</li>
+                <li>Return Policy</li>
+                <li>Blog Post</li>
+                <li>Join Affiliate</li>                
+            </ul>
+        </div>
+        <div class="data">
+            <h5>Follow Us</h5>
+            <ul>
+                <li>FaceBook</li>
+                <li>Youtube</li>
+                <li>Instagram</li>
+                <li>Twitter</li>                
+            </ul>
+        </div>
+    </div>
+    
+    <script src="public/scripts/library.js"></script>
+    <script src="./public/scripts/navigation.js"></script>
+    <script src="public/scripts/product.js"></script>
+</body>
+</html>
