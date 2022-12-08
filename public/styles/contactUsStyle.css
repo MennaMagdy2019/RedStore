@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
-
+.navigation{
+    margin-bottom: 20px;
+}
 .contact{
     position: relative;
     min-height: 100vh;
@@ -14,7 +16,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(../img/343570.png) ;
+    background: url(../../assets/images/343570.png) ;
 
     /* background-color: rgb(50, 49, 49); */
     background-size: cover;
