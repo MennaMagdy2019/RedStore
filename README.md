@@ -43,7 +43,7 @@ https://user-images.githubusercontent.com/50016070/206589711-412bd1e9-3ded-40e6-
  <h3>👨‍💻 Designed Second Page(The products page)</h3>
 
 * Designed and Implemented The filter used for filtering products by product type .
-* Dividided all products to 4 Categories(Shirts,Trackpants,Shoses,Watches,Sockes)
+* Dividided all products to 5 Categories(Shirts,Trackpants,Shoses,Watches,Sockes)
 
  <h4> 3. Nourhan Ahmed </h4>
  
